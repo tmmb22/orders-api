@@ -70,13 +70,13 @@ Tabelas principais:
 
 1\. \*\*Adicionar stock\*\*
 
-http://localhost:8080/orders-api/test-stock?action=add\&itemId=1\&qty=5
+http://localhost:8080/orders-api/test-stock?action=add&itemId=1&qty=5
 
 
 
 2\. \*\*Criar encomenda\*\*
 
-http://localhost:8080/orders-api/test-order?userId=1\&itemId=1\&quantity=3
+http://localhost:8080/orders-api/test-order?userId=1&itemId=1&quantity=3
 
 
 
@@ -88,7 +88,7 @@ http://localhost:8080/orders-api/order-status?id=1
 
 4\. \*\*Saldo livre de um item\*\*
 
-http://localhost:8080/orders-api/test-stock?action=freeBalance\&itemId=1
+http://localhost:8080/orders-api/test-stock?action=freeBalance&itemId=1
 
 
 
